@@ -1,6 +1,6 @@
 ﻿using YiJingFramework.StemsAndBranches;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.孟仲季扩展
 {
     public static class 地支孟仲季扩展
     {

@@ -1,6 +1,7 @@
-﻿using YiJingFramework.StemsAndBranches;
+﻿using SixRens.Tools.干支性质扩展;
+using YiJingFramework.StemsAndBranches;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.十二长生扩展
 {
     public static class 天干十二长生扩展
     {
@@ -19,7 +20,7 @@ namespace SixRens.Tools
                 { 10, 4 },
             };
 
-        public static 十二长生 以支取长生(
+        public static 十二长生 天干以支取长生(
             this HeavenlyStem 干, EarthlyBranch 支)
         {
             var difference = 长生支表[干.Index] - 支.Index;
@@ -28,7 +29,7 @@ namespace SixRens.Tools
             return (十二长生)((difference + 12) % 12);
         }
 
-        public static EarthlyBranch 以长生取支(
+        public static EarthlyBranch 天干以长生取支(
             this HeavenlyStem 干, 十二长生 长生)
         {
             var 差异 = (int)长生;

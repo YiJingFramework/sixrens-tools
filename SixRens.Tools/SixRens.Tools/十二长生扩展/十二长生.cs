@@ -1,4 +1,4 @@
-﻿namespace SixRens.Tools
+﻿namespace SixRens.Tools.十二长生扩展
 {
     public enum 十二长生
     {

@@ -1,6 +1,6 @@
 ﻿using YiJingFramework.StemsAndBranches;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.干支关系扩展
 {
     public static class 地支刑冲破害合扩展
     {

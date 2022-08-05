@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿using SixRens.Tools.孟仲季扩展;
+using SixRens.Tools.干支性质扩展;
+using System.Collections;
 using System.Diagnostics;
 using YiJingFramework.FiveElements;
 using YiJingFramework.StemsAndBranches;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.干支关系扩展
 {
     public static class 地支三合扩展
     {
@@ -19,12 +21,10 @@ namespace SixRens.Tools
                 yield return this.帝旺支;
                 yield return this.墓支;
             }
-
             IEnumerator<EarthlyBranch> IEnumerable<EarthlyBranch>.GetEnumerator()
             {
                 return this.AsEnumerable().GetEnumerator();
             }
-
             IEnumerator IEnumerable.GetEnumerator()
             {
                 return this.AsEnumerable().GetEnumerator();

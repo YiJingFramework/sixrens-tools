@@ -2,7 +2,7 @@
 using YiJingFramework.FiveElements;
 using YiJingFramework.StemsAndBranches;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.干支性质扩展
 {
     public static class 干支阴阳五行扩展
     {

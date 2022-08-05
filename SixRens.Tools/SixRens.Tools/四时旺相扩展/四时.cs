@@ -1,4 +1,4 @@
-﻿namespace SixRens.Tools
+﻿namespace SixRens.Tools.四时旺相扩展
 {
     public enum 四时
     {

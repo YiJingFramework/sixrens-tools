@@ -1,13 +1,14 @@
-﻿using YiJingFramework.FiveElements;
+﻿using SixRens.Tools.干支性质扩展;
+using YiJingFramework.FiveElements;
 using YiJingFramework.StemsAndBranches;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.六亲扩展
 {
     public static class 六亲扩展
     {
         public static 六亲 判断六亲(this FiveElement me, FiveElement other)
         {
-            return (六亲)(int)me.GetRelationship(other);
+            return (六亲)me.GetRelationship(other);
         }
         public static 六亲 判断六亲(this FiveElement me, EarthlyBranch other)
         {
@@ -18,7 +19,7 @@ namespace SixRens.Tools
             return me.判断六亲(other.五行());
         }
 
-        #region I'm stem
+        #region 我为天干
         public static 六亲 判断六亲(this HeavenlyStem me, FiveElement other)
         {
             return me.五行().判断六亲(other);
@@ -33,7 +34,7 @@ namespace SixRens.Tools
         }
         #endregion
 
-        #region I'm branch
+        #region 我为地支
         public static 六亲 判断六亲(this EarthlyBranch me, FiveElement other)
         {
             return me.五行().判断六亲(other);

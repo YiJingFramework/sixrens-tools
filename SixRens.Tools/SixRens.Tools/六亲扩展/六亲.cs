@@ -1,6 +1,6 @@
 ﻿using YiJingFramework.FiveElements;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.六亲扩展
 {
     public enum 六亲
     {

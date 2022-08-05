@@ -1,6 +1,6 @@
 ﻿using YiJingFramework.StemsAndBranches;
 
-namespace SixRens.Tools
+namespace SixRens.Tools.十二长生扩展
 {
     public static class 天干寄宫扩展
     {
