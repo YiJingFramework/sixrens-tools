@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>YiJingFramework</Authors>
+    <Company>YiJingFramework</Company>
+    <Product>SixRens.Tools</Product>
+    <PackageId>SixRens.Tools</PackageId>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/YiJingFramework/sixrens-tools.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>zh-Hans</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixRens.Api" Version="1.17.0" />
+    <PackageReference Include="YiJingFramework.Core" Version="4.1.0" />
+    <PackageReference Include="YiJingFramework.FiveElements" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
