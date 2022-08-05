@@ -8,7 +8,7 @@
     <Company>YiJingFramework</Company>
     <Product>SixRens.Tools</Product>
     <PackageId>SixRens.Tools</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/YiJingFramework/sixrens-tools.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -17,9 +17,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SixRens.Api" Version="1.17.1" />
     <PackageReference Include="YiJingFramework.Core" Version="4.1.0" />
     <PackageReference Include="YiJingFramework.FiveElements" Version="3.1.0" />
+    <PackageReference Include="YiJingFramework.StemsAndBranches" Version="3.0.2" />
   </ItemGroup>
 
 </Project>
